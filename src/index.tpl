@@ -1,6 +1,7 @@
 <article class="index">
 	<h2>[@title]</h2>
-	<p>Hier geht es um den Minecraft Server der uhuC.de Community. 100% Vanilla Survival, seit Mai 2011.</p>
+	
+	[@text]
 
 	<div class="boxparent">
 		<section class="imgshadow">

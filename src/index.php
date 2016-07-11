@@ -6,6 +6,7 @@
 
 	$content = new Template("index.tpl");
 	$content->set("title", $title);
+	$content->set("text", "<p>Hier geht es um den Minecraft Server der uhuC.de Community. 100% Vanilla Survival, seit Mai 2011.</p>");
 
 	$layout = new Template("main.tpl");
 	$layout->set("title", $title);
