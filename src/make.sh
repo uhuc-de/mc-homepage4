@@ -30,16 +30,6 @@ do
 done
 
 
-# chat.php erzeugen
-echo -n "Generate chat.php... "
-cat <<EOF > ${dest}chat.php
-<?php
-header("Location: https://mibbit.com/chat/?server=irc.jdqirc.net&channel=%23minecraft&nick=WebsiteVisitor");
-exit;
-?>
-EOF
-echo "done"
-
 
 # copy files
 echo -n "Copy files... "

@@ -16,7 +16,7 @@ Die statischen Seiten werden via PHP und einem simplen Templatesystem erstellt. 
 		"^/faq$" => "/faq.html"
 		"^/faq#(.*)$" => "/faq.html#$1"
 
-		"^/chat$" => "/chat.php"
+		"^/chat$" => "https://mibbit.com/chat/?server=irc.jdqirc.net&channel=%23minecraft&nick=WebsiteVisitor"
 
 		"^/forum$" => "http://uhuc.de"
 
